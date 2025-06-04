@@ -1,0 +1,58 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+
+# Build output
+dist/
+build/
+coverage/
+
+# IDE/editor folders and files
+.DS_Store
+.idea/
+.vscode/
+*.sublime-*
+*.code-workspace
+*.iml
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+*.seed
+*.pid
+*.pid.lock
+*.tgz
+*.zip
+*.gz
+*.tmp
+*.temp
+.cache/
+*.cache
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+
+# Test output
+.nyc_output/
+.eslintcache
+*.tsbuildinfo
